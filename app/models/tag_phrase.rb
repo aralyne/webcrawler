@@ -1,0 +1,2 @@
+class TagPhrase < ApplicationRecord
+end
