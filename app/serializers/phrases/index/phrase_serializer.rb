@@ -4,7 +4,7 @@ class Phrases::Index::PhraseSerializer < ActiveModel::Serializer
     def phrase
       object.as_json(only: [:description])
     end
-
+    
     def message
     "Todas Frases"
     end
